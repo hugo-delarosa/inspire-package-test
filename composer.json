@@ -1,0 +1,23 @@
+{
+    "name": "hugo/inspire",
+    "autoload": {
+        "psr-4": {
+            "Hugo\\Inspire\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Hugo"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hugo\\Inspire\\InspireServiceProvider"
+            ]
+        }
+    }
+}
