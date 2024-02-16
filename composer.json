@@ -16,7 +16,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Hugo\\Inspire\\InspireServiceProvider"
+                "Hugo\\Inspire\\Providers\\InspireServiceProvider"
             ]
         }
     }
